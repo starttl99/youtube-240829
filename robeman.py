@@ -10,7 +10,7 @@ import datetime
 # YouTube API 설정
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyDTasemPTDfGBXf38zAcSO2gqep0jHPCy8"  # 여기에 YouTube API 키를 입력하세요
+DEVELOPER_KEY = ""  # 여기에 YouTube API 키를 입력하세요
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY)
